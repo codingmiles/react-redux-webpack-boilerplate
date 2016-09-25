@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack-dev-server --port 4000 --colors"
+    "start": "webpack-dev-server --port 4000 --progress"
   },
   "repository": {
     "type": "git",
