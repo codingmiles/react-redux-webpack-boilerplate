@@ -12,7 +12,7 @@ class Home extends Component {
     return (
       <div>
         <button onClick={() => this.buttonPressed()}>{this.props.name}</button>
-        <a href="about">About Us</a>
+        <a href="#/about">About Us</a>
       </div>
     )
   }

@@ -5,13 +5,13 @@ import { Provider } from 'react-redux'
 import configureStore from './store'
 import rootReducer from './reducers'
 
-import Home from './components/Home'
+import router from './router'
 
 const store = configureStore(rootReducer)
 
 ReactDOM.render(
   <Provider store={store}>
-    <Home />
+    {router}
   </Provider>,
   document.getElementById('app')
 )
